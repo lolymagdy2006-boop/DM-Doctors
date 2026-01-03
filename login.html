@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secure Login — Faculty Portal</title>
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="auth" role="main">
+    <section class="auth__card" aria-labelledby="title">
+      <header class="auth__header">
+        <div class="auth__mark" aria-hidden="true">+</div>
+        <h1 id="title">Faculty Login</h1>
+        <p class="auth__subtitle">Enter your credentials to access your portal.</p>
+      </header>
+
+      <form id="loginForm" class="form" novalidate>
+        <div class="field">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" autocomplete="username" required placeholder="e.g., prof.amina" />
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required placeholder="Your password" />
+        </div>
+
+        <div id="message" class="message" aria-live="polite"></div>
+
+        <button class="btn" type="submit">Sign in</button>
+
+        <div class="auth__links">
+          <a href="index.html">← Back to directory</a>
+        </div>
+
+        <p class="auth__hint">
+          Demo accounts are defined in <code>js/auth.js</code>.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/auth.js" defer></script>
+</body>
+</html>
