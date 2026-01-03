@@ -4,7 +4,7 @@
 const facultyCredentials = [
   { username: 'Dr.Sherif', password: 'Sherif@123', redirectURL: 'https://lolymagdy2006-boop.github.io/Dr.Sherif-/' },
   { username: 'Dr.Hanan', password: 'Hanan@123', redirectURL: 'https://kjbkjnkn.github.io/Dr-Hanan2/' },
-  { username: 'Dr.Norhane', password: 'Norhane@123', redirectURL: '' },
+  { username: 'Dr.Norhane', password: 'Norhane@123', redirectURL: 'https://habibaessam676.github.io/Digital-Device-Evaluation/' },
   { username: 'Dr.Asmaa Al-Sharif', password: 'AsmaaSH@123', redirectURL: '' },
   { username: 'Dr.Asmaa Abd-elmajid', password: 'AsmaaA@123', redirectURL: '' },
   { username: 'Dr.Samuel', password: 'Samuel@123', redirectURL: '' },
@@ -66,6 +66,7 @@ function validateFacultyCredentials(username, password) {
     }, 120);
   });
 })();
+
 
 
 
