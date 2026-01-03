@@ -3,7 +3,7 @@
 
 const facultyCredentials = [
   { username: 'Dr.Sherif', password: 'Sherif@123', redirectURL: 'https://lolymagdy2006-boop.github.io/Dr.Sherif-/' },
-  { username: 'Dr.Hanan', password: 'Hanan@123', redirectURL: '' },
+  { username: 'Dr.Hanan', password: 'Hanan@123', redirectURL: 'https://kjbkjnkn.github.io/Dr-Hanan2/' },
   { username: 'Dr.Norhane', password: 'Norhane@123', redirectURL: '' },
   { username: 'Dr.Asmaa Al-Sharif', password: 'AsmaaSH@123', redirectURL: '' },
   { username: 'Dr.Asmaa Abd-elmajid', password: 'AsmaaA@123', redirectURL: '' },
@@ -12,7 +12,7 @@ const facultyCredentials = [
   { username: 'Dr.Farid', password: 'Farid@123', redirectURL: '' },
   { username: 'Dr.Khaled', password: 'Khaled@123', redirectURL: '' },
   { username: 'Dr.Merielle', password: 'Merielle@123', redirectURL: '' },
-  { username: 'Dr.Manal', password: 'Manal@123', redirectURL: '' },
+  { username: 'Dr.Manal', password: 'Manal@123', redirectURL: 'https://rafatamernada25-jpg.github.io/advanced-french/' },
   { username: 'Dr.Ehab', password: 'Ehab@123', redirectURL: '' },
   { username: 'Dr.Maan', password: 'Maan@123', redirectURL: '' },
   { username: 'Dr.Mario', password: 'Mario@123', redirectURL: '' },
@@ -66,5 +66,6 @@ function validateFacultyCredentials(username, password) {
     }, 120);
   });
 })();
+
 
 
