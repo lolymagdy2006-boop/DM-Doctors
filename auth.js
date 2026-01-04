@@ -9,7 +9,7 @@ const facultyCredentials = [
   { username: 'Dr.Asmaa Abd-elmajid', password: 'AsmaaA@123', redirectURL: '' },
   { username: 'Dr.Samuel', password: 'Samuel@123', redirectURL: '' },
   { username: 'Dr.Reem', password: 'Reem@123', redirectURL: '' },
-  { username: 'Dr.Farid', password: 'Farid@123', redirectURL: '' },
+  { username: 'Dr.Farid', password: 'Farid@123', redirectURL: 'https://molly115.github.io/drFarid-portal/' },
   { username: 'Dr.Khaled', password: 'Khaled@123', redirectURL: '' },
   { username: 'Dr.Merielle', password: 'Merielle@123', redirectURL: '' },
   { username: 'Dr.Manal', password: 'Manal@123', redirectURL: 'https://rafatamernada25-jpg.github.io/advanced-french/' },
@@ -66,6 +66,7 @@ function validateFacultyCredentials(username, password) {
     }, 120);
   });
 })();
+
 
 
 
